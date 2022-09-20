@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #333;
+  padding: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+button{
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 3px solid teal;
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+  font-width: 600;
+  cursor: pointer;
+  transition: .1s;
+  border-radius: 15px;
+}
+button:active{
+  transform: scale(1.1);
+}
